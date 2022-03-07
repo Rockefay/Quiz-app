@@ -1,6 +1,7 @@
 :root {
     background-color: #ecf5ff;
-    font-size: 62.5%; /*setting the base font size to 10px to use rem*/
+    font-size: 62.5%;
+    /*setting the base font size to 10px to use rem*/
 }
 
 * {
@@ -14,7 +15,7 @@
 h1,
 h2,
 h3,
-h4{
+h4 {
     margin-bottom: 1rem;
 }
 
@@ -24,7 +25,7 @@ h1 {
     margin-bottom: 5rem;
 }
 
-h1 > span {
+h1>span {
     font-size: 2.4rem;
     font-weight: 500;
 }
@@ -40,6 +41,7 @@ h3 {
     font-weight: 500;
 }
 
+
 /* UTILITIES */
 
 .container {
@@ -53,7 +55,7 @@ h3 {
     padding: 2rem;
 }
 
-.container > * {
+.container>* {
     width: 100%;
 }
 
@@ -74,6 +76,7 @@ h3 {
 .hidden {
     display: none;
 }
+
 
 /* BUTTONS */
 

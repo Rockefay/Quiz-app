@@ -16,7 +16,7 @@
 
 .choice-prefix {
     padding: 1.5rem 2.5rem;
-    background-color: #56a5eb;  
+    background-color: #56a5eb;
     color: white;
 }
 
@@ -33,6 +33,7 @@
     background-color: #dc3545;
 }
 
+
 /*HUD*/
 
 #hud {
@@ -47,4 +48,17 @@
 
 .hud-main-text {
     text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #56a5eb;
+    margin-top: 1.5rem;
+}
+
+#progressBarFull {
+    height: 3.4rem;
+    width: 0%;
+    background-color: #56a5eb;
 }
